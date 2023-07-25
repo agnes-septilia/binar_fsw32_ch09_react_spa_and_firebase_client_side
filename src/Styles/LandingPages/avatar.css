@@ -1,0 +1,29 @@
+.avatar-background {
+    background-color: black;
+    width: 100wh;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.avatar-form-area {
+    width: 500px;
+    height: 500px;
+    background-color: #4E67EB;
+    border-radius: 10px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.avatar-buttons-area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}

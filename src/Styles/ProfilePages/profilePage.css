@@ -1,0 +1,77 @@
+.body {
+    margin: 0;
+    padding: 0;
+}
+
+.bgProfile {
+    min-height: 100vh;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: black;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.cardProfile {
+    display: flex;
+    align-items: center;
+}
+.bgCard {
+    /* height: 28rem; */
+    width: 22rem;
+    color: white;
+    background-color: #4E67EB;   
+}
+
+.styleAvatar {
+    height: 100px;
+    width: 100px;
+    padding: 4px;
+    background: rgb(114, 113, 113);
+    border-radius: 50%;
+}
+
+.icons a {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: white;
+    margin-bottom: 15px;
+}
+.styleModal {
+    background-color: #4E67EB;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"] {
+    background: aliceblue;
+    color:#252525;    
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="number"]:focus {
+    background: rgba(0, 0, 0, 0.557);
+    color: white;
+}
+
+input[type="text"]::placeholder,
+input[type="email"]::placeholder,
+input[type="number"]::placeholder {
+    color: rgb(126, 125, 125); 
+    font-size: 15px;
+}
+
+.btn-profile {
+    box-shadow: 1px 1px 5px 2px rgba(213, 217, 218, 0.3);;
+}
+
+.logout {
+    color: black;
+}

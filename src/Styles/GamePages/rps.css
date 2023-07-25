@@ -1,0 +1,190 @@
+/* body styles */
+.rps-body {
+    font-family: sans-serif;
+    line-height: 1.5;
+    margin: 0;
+    padding: 10px;
+    min-height: 100vh;
+    background-color: #E5F8E3;
+}
+
+/* header styles */
+
+.rps-header {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 10px;
+}
+
+.rps-leftitem {
+    display: flex;
+    gap: 30px;
+}
+
+.rps-judul,
+.rps-scoredisplay {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 49px;
+    text-align: start;
+    color: #FFA500;
+}
+
+.rps-scoredisplay {
+    margin-left: 40px;
+}
+
+.rps-name {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 2.2rem;
+    text-align: center;
+    color: black;
+    margin-right: 10px;
+}
+
+/* Button Styles */
+.rps-refresh-button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.rps-button,
+#done-button,
+#refresh-button {
+    background: none;
+    padding: 0;
+    width: 120px;
+    height: 120px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#done-button {
+    background-color: #339936;
+    color: white;
+    font-size: 1rem;
+    width: 320px;
+}
+
+#done-button:hover,
+#refresh-button:hover {
+    background-color: #45a049;
+}
+
+#done-button:focus,
+.rps-button:focus,
+#refresh-button:focus {
+    outline: none;
+}
+
+
+#computerChoice,
+#rps-button {
+    padding: 0;
+    width: 180px;
+    height: 180px;
+    border-radius: 10px;
+    border: none;
+}
+
+.rps-button {
+    background: none;
+    border: none;
+}
+
+.chosen,
+.rps-button:hover {
+    background: #c4c4c4;
+    transition: all 0.5s ease;
+    border-radius: 10px;
+    border: none;
+}
+
+/* others styles */
+.logo {
+    width: 72px;
+    height: 72px;
+}
+
+#batu {
+    width: 108px;
+    height: 72px;
+}
+
+#batu-com {
+    width: 108px;
+    height: 72px;
+}
+
+#kertas {
+    width: 95px;
+    height: 130px;
+}
+
+#kertas-com {
+    width: 95px;
+    height: 130px;
+}
+
+#gunting {
+    width: 114px;
+    height: 140px;
+}
+
+#gunting-com {
+    width: 114px;
+    height: 140px;
+}
+
+#computerChoice {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#result {
+    font-size: 4rem;
+    font-weight: bold;
+    color: #8B0000;
+    text-align: center;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.rps-result-message {
+    color: #0f710c;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.grid {
+    grid-template-columns: 120px 120px auto 150px;
+    text-align: center;
+    align-items: center;
+}
+
+.row {
+    flex-wrap: nowrap;
+}
+
+.refresh-img {
+    width: 77px;
+    height: 77px;
+}
+
